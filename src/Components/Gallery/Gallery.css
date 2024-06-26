@@ -41,6 +41,29 @@ justify-content: center;
 }
 
 .img-container{
-    display: grid;
-    grid-template-columns: 4, 1fr;
+    margin-top: 55px;
+    columns: 4;
+    gap: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.img-container img{
+    padding-bottom: 15px;
+}
+
+
+.col1 ,.col2 ,.col3 ,.col4{
+
+    flex-direction: column;
+}
+
+.col1{
+    padding-top: 100px !important;
+}
+.col3{
+    padding-top: 100px !important;
 }

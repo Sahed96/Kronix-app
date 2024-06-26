@@ -28,16 +28,22 @@ const Gallery = () => {
         </button>
       </div>
       <div className="img-container">
-        <div>
+        <div className="col1">
           <img src={img1} alt="" />
           <img src={img2} alt="" />
           <img src={img3} alt="" />
+        </div>
+        <div className="col2">
           <img src={img4} alt="" />
           <img src={img5} alt="" />
           <img src={img6} alt="" />
+        </div>
+        <div className="col3">
           <img src={img7} alt="" />
           <img src={img8} alt="" />
           <img src={img9} alt="" />
+        </div>
+        <div className="col4">
           <img src={img10} alt="" />
           <img src={img11} alt="" />
           <img src={img12} alt="" />

@@ -1,0 +1,46 @@
+.gallery-container{
+    background-color: #FFF;
+    height: 1533px;
+    
+}
+.content{
+    
+    text-align: center;
+    padding-top: 77px;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.gallery-description{
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: #111204CC;
+    margin-bottom: 40px;
+}
+.load-btn{
+    border-radius: 8px;
+border: 1px solid #111204;
+width: 184px;
+height: 64px;
+flex-shrink: 0;
+background: #FFF;
+font-size: 20px;
+font-weight: 400;
+align-items: center;
+justify-content: center;
+/* display: flex; */
+
+}
+.icon{
+    
+    width: 50px;
+    height: 25px;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: 4, 1fr;
+}

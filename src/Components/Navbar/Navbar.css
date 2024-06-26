@@ -1,0 +1,41 @@
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    color : white;
+    align-items: center;
+    padding-left: 148px;
+    padding-right: 150px;
+    padding-top: 39px;
+    
+}
+.nix{
+    color: #B9FD50;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+.navbar p {
+    font-size: 32px;
+    font-weight: 700;
+}
+.navList{
+    display: flex;
+    align-items: center;
+
+}
+
+.btn1{
+    background-color: #B9FD50;
+    color: #111204;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 77px;
+    border-radius: 8px;
+    padding: 18px;
+    text-align: center;
+}

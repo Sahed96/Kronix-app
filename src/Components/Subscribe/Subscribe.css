@@ -1,0 +1,201 @@
+.sub-container{
+    height: 2420px;
+    background: #111204;
+    color: white;
+}
+
+.sub-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+    text-align: center;
+    margin-bottom: 112px;
+}
+.sub-head{
+    padding-top: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #B9FD50;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.sub-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.price-card{
+    width: 22.5rem;
+    height: 52.75rem;
+    border-radius: 16px;
+    padding: 19px;
+    background: #222222;
+    
+}
+.sub-cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-head{
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.popular-btn{
+    display: inline-flex;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-size: 14px;
+font-weight: 400;
+border-radius: 8px;
+background: #B9FD50;
+}
+
+.card-text{
+    padding-top: 30px;
+    padding-left: 15px;
+
+    width: 290px;
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.amount{
+    padding-left: 18px;
+    font-size: 48.5px;
+    font-style: normal;
+    font-weight: 600;
+    color: #B9FD50;
+}
+.note{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+    padding-left: 18px;
+    padding-top: 10px;
+    
+}
+.star10{
+    width: 12px;
+    margin-right: 8px;
+    margin-left: 18px;
+}
+.card-list p{
+    padding-bottom: 20px;
+}
+
+.book{
+    display: flex;
+width: 269px;
+height: 56px;
+padding: 8px 14px;
+justify-content: center;
+align-items: center;
+background: none;
+gap: 14px;
+font-size: 16px;
+font-weight: 500;
+color: white;
+border-radius: 8px;
+border: 1px solid #B9FD50;
+}
+
+.click{
+    border-radius: 8px;
+background: #B9FD50;
+display: flex;
+width: 269px;
+height: 56px;
+font-size: 16px;
+font-weight: 500;
+padding: 8px 14px;
+justify-content: center;
+align-items: center;
+gap: 14px;
+margin-top: 20px;
+
+}
+
+.pay-btn{
+    padding-left: 27px;
+    padding-top: 30px;
+}
+
+.best-btn{
+    display: inline-flex;
+padding: 12px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-size: 14px;
+font-weight: 400;
+border-radius: 8px;
+}
+
+.hilite{
+    color: #B9FD50;
+}
+
+.news-card{
+    background: linear-gradient(225deg, rgba(185, 253, 80, 0.03) -17.42%, rgba(0, 0, 0, 0.04) 132.65%);
+    width: 554px;
+    height: 212px;
+    border-radius: 10px;
+    border: 1px;
+    border-color: rgba(185, 253, 80, 0.37);
+    display: flex;
+    
+}
+
+.news-card img{
+    width: 100%;
+    height: 100%;
+    padding-right: 22px;
+}
+
+.news-head{
+    color: #B9FD50;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 30px;
+padding-bottom: 12px;
+}
+.news-title{
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+padding-bottom: 14px;
+}
+.news-text{
+    color: #ABABB2;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

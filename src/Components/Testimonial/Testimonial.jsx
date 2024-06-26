@@ -1,7 +1,7 @@
 import React from "react";
 import "./Testimonial.css";
-import pic from "../../Assets/Ellipse 232.png";
-import { FaArrowRotateRight } from "react-icons/fa6";
+
+import Slider from "../Slider";
 
 const Testimonial = () => {
   return (
@@ -16,7 +16,7 @@ const Testimonial = () => {
           to our CEO.
         </p>
       </div>
-      <div className="review-card">
+      {/* <div className="review-card">
         <div>
           <p className="rev-name">Gymstory</p>
           <p className="rev-title">
@@ -37,7 +37,8 @@ const Testimonial = () => {
         <div>
           <img src={pic} alt="" />
         </div>
-      </div>
+      </div> */}
+      <Slider />
     </div>
   );
 };

@@ -11,6 +11,12 @@
 }
 .nix{
     color: #B9FD50;
+    
+}
+
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .navbar ul {
@@ -20,8 +26,7 @@
 }
 
 .navbar p {
-    font-size: 32px;
-    font-weight: 700;
+    
 }
 .navList{
     display: flex;
